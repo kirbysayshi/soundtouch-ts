@@ -86,7 +86,9 @@ function asPlanar(
 
 ```sh
 $ npx pack build
+$ npm version [xxx]
 $ cd pkg && npm publish
+$ git push origin HEAD --tags
 ```
 
 ## History
