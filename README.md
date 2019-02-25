@@ -2,7 +2,7 @@
 
 A port of a port to TypeScript. Pitchshift and Timestretch in JS/TS. This library is LGPL2.1 due to [SoundTouch](https://gitlab.com/soundtouch/soundtouch). A more tested port of this library, with more utilities, is available in [soundtouch-js](https://github.com/cutterbl/SoundTouchJS). This TS port exists because I wanted the types, and didn't know soundtouch-js existed until recently.
 
-However, as long as you allow a user, at runtime, to swap out this library, it should be fall under section 6b of https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html. But JS/TS and LGPL is legally ambiguous.
+However, as long as you allow a user, at runtime, to swap out this library, it should fall under section 6b of https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html. But JS/TS and LGPL are legally ambiguous, so use at your own risk.
 
 ## Usage
 
