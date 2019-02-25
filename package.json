@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/kirbysayshi/soundtouch-ts.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "pitch",
     "timestretch",
