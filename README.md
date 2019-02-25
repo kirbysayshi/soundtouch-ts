@@ -85,7 +85,8 @@ function asPlanar(
 ## Publishing
 
 ```sh
-$ npx pack publish
+$ npx pack build
+$ cd pkg && npm publish
 ```
 
 ## History
