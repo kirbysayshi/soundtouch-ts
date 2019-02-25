@@ -99,6 +99,11 @@ This port was modified from the following:
 - Modified and included in a UI (MIT): https://github.com/ZVK/stretcher (http://zackzukowski.com/TAP-audio-player/)
 - Converted to TypeScript: [src/index.ts](src/index.ts).
 
+Changes from the original:
+
+- Conversion to ES6 (removal of prototypes), then TypeScript (addition of signature types and removal of implicity `any`).
+- Removal of various Web Audio helpers and APIs, focusing on the core SoundTouch API.
+
 ## License
 
 [GNU Lesser General Public Library, version 2.1](https://www.gnu.org/licenses/lgpl-2.1.en.html)
