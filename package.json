@@ -4,7 +4,8 @@
   "description": "A TypeScript conversion of SoundTouchJS",
   "main": "index.js",
   "scripts": {
-    "test": "jest && pack build"
+    "test": "jest",
+    "test:pack": "pack build"
   },
   "repository": {
     "type": "git",

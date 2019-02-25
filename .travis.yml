@@ -4,3 +4,6 @@ before_install:
 cache: npm
 node_js:
   - "10"
+script:
+  - npm test
+  - npm run test:pack
