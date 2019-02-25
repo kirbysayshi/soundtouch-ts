@@ -80,6 +80,12 @@ function asPlanar(
 }
 ```
 
+## Publishing
+
+```sh
+$ npx pack publish
+```
+
 ## History
 
 This port was modified from the following:
